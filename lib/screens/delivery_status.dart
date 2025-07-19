@@ -12,7 +12,7 @@ class DeliveryStatus extends StatelessWidget {
         children: [
           Container(
             color: kPrimaryColor,
-            padding: const EdgeInsets.symmetric(vertical: 70, horizontal: 10),
+            padding: const EdgeInsets.symmetric(vertical: 50, horizontal: 10),
             child: Row(
               children: [
                 const CustomBackButton(),
@@ -29,7 +29,7 @@ class DeliveryStatus extends StatelessWidget {
           ),
           SizedBox(height: 20),
           Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(8.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -88,7 +88,7 @@ Widget dottedLines() {
   return Padding(
     padding: const EdgeInsets.only(left: 40.0),
     child: SizedBox(
-      height: 40,
+      height: 30,
       child: LayoutBuilder(
         builder: (context, constraints) {
           final dotCount = (constraints.maxHeight / 10).floor();

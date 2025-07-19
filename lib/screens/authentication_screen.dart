@@ -19,7 +19,6 @@ class _AuthenticationScreenState extends State<AuthenticationScreen> {
     final screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
-      resizeToAvoidBottomInset: true,
       body: SafeArea(
         child: SingleChildScrollView(
           child: ConstrainedBox(
